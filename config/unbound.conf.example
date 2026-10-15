@@ -1,0 +1,5 @@
+# Example Unbound DNS resolver configuration
+server:
+    module-config: "validator iterator"
+    val-permissive-mode: no
+    auto-trust-anchor-file: "/var/lib/unbound/root.key"
