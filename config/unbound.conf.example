@@ -3,3 +3,7 @@ server:
     module-config: "validator iterator"
     val-permissive-mode: no
     auto-trust-anchor-file: "/var/lib/unbound/root.key"
+
+
+
+# Temporary change for rollback simulation
