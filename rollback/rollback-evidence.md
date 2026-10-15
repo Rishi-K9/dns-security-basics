@@ -1,20 +1,19 @@
 # DNS Rollback Evidence
 
 ## Objective
-Document a simulated DNS configuration rollback.
-
-## Test Scope
-This is an educational simulation. No live DNS server was modified.
+Demonstrate a simulated configuration change and rollback using GitHub version history.
 
 ## Procedure
-1. Identify the original sample configuration.
-2. Simulate a configuration change in a separate copy.
-3. Restore the original sample configuration.
-4. Compare the original and restored files.
+1. Added a temporary comment to the sample DNS configuration.
+2. Committed the simulated change.
+3. Removed the temporary comment.
+4. Committed the restoration of the original configuration.
 
-## Expected Result
-The restored sample configuration matches the original version.
+## Evidence
+The GitHub commit history records both the simulated change and the restoration.
 
-## Evidence Status
-The procedure is documented for a planned simulation.
-Actual execution and verification have not yet been performed.
+## Result
+The sample configuration was restored to its original content.
+
+## Limitations
+This was a Git-based simulation. No DNS server was deployed, and no live DNS rollback was performed.
